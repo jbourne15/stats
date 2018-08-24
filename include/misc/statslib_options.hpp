@@ -121,7 +121,7 @@ namespace stats {
 
 #ifdef STATS_USE_EIGEN
 
-    #include "Eigen"
+    #include "Eigen/Eigen"
 
     // template<typename T>
     // using EigDynMat = Eigen::Matrix<T,Eigen::Dynamic,Eigen::Dynamic>;
